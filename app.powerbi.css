@@ -1,0 +1,11 @@
+@-moz-document domain("app.powerbi.com") {
+#appNavPane {
+    width: 140px !IMPORTANT;
+    min-width: 120px !IMPORTANT;
+}
+
+app-full-screen-control {
+    height: 30px;
+    line-height: 30px;
+}
+}
