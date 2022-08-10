@@ -1,0 +1,10 @@
+@-moz-document domain("monica.*") {
+/* Monica CRM */
+/* Addresses - Only show selected countries on the drop down list */
+#name45 > option {
+    display: none !IMPORTANT;
+}
+#name45 > option[value="GB"], #name45 > option[value="CZ"] {
+    display: inline-block !IMPORTANT;
+}
+}
