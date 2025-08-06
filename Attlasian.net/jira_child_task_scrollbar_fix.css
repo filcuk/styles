@@ -1,0 +1,7 @@
+@-moz-document url-prefix("https://your-domain.atlassian.net/") {
+/* Fix issue with horizontal scrollbar appearing for no reason, causing vertical scrollbar to show up too and obscuring the task list */
+div[data-ssr-placeholder-replace="issue-content-items"] div[data-vc="issue-table-main-container"] div[data-testid="native-issue-table.ui.scroll-container.scroll-container"]
+{
+    overflow-x: hidden !important;
+}
+}
